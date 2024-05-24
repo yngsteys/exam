@@ -4,6 +4,9 @@ project(exam)
 set(LIB_NAME AS_LIB)
 add_library(${LIB_NAME} "")
 
+enable_testing()
+add_subdirectory(lib/googletest)
+
 add_subdirectory(src)
 add_subdirectory(test)
 
