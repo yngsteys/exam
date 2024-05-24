@@ -1,0 +1,3 @@
+target_sources(${LIB_NAME} PUBLIC long_number.cpp long_number.hpp)
+
+target_include_directories(${LIB_NAME} PUBLIC long_number.cpp long_number.hpp)
