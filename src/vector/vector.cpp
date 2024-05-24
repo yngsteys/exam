@@ -1,33 +1,33 @@
 #include "vector.hpp"
 
-using AS::vector;
+using AS::Vector;
 
 template<typename T>
-vector<T>::vector() {
+Vector<T>::Vector() {
 
 };
 
 template<typename T>
-vector<T>::~vector() {
+Vector<T>::~Vector() {
 
 };
 
 template<typename T>
-void vector<T>::add(const T&) {
+void Vector<T>::add(const T&) {
 
 };
 
 template<typename T>
-void vector<T>::remove(const T&) {
+void Vector<T>::remove(const T&) {
 
 };
 
 template<typename T>
-std::size_t vector<T>::get_size() {
+std::size_t Vector<T>::get_size() {
     return 0;
 };
 
 template<typename T>
-bool vector<T>::has_item(const T&){
+bool Vector<T>::has_item(const T&){
     return true;
 };

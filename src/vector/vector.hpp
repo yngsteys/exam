@@ -1,17 +1,18 @@
+#pragma once
 #include <cstddef>
 
 namespace AS {
     template<typename T>
-    class vector {
+    class Vector {
     private:
         std::size_t capacity;
         T* arr;
         std::size_t size;
     public:
-        vector();
-        vector(const vector&) = delete;
-        vector operator = (const vector&) = delete;
-        ~vector();
+        Vector();
+        Vector(const Vector&) = delete;
+        Vector operator = (const Vector&) = delete;
+        ~Vector();
 
         void add(const T&);
         void remove(const T&);
