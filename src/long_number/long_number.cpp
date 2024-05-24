@@ -110,7 +110,8 @@ int LongNumber::get_length(const char* const str) const {
         length++;
     }
 }
-
-std::ostream& operator << (std::ostream &os, const LongNumber& x) {
-    return os;
-}
+namespace AS {
+	std::ostream& operator << (std::ostream &os, const LongNumber& x) {
+  		return os;
+	}
+}	
