@@ -1,0 +1,3 @@
+target_sources(${LIB_NAME} PUBLIC vector.cpp vector.hpp)
+
+target_include_directories(${LIB_NAME} PUBLIC vector.cpp vector.hpp)
