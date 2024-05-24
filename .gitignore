@@ -2,3 +2,7 @@ build_*/
 lib/
 .DS_Store
 .idea
+*.cmake
+*Cache*
+*.ninja
+CMakeFiles
